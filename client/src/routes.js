@@ -1,16 +1,17 @@
 import React from 'react';
 import { Route, Router, Redirect } from 'react-router-dom';
 
-import App from '../App/App';
-import Home from '../Home/Home';
-import Login from '../Login/Login';
-import Loading from '../Loading/Loading';
-import Auth from '../Auth/Auth';
-import APITest from '../APITest/APITest';
-import APIAuthTest from '../APITest/APIAuthTest';
-import ProtectedTest from '../ProtectedTest/ProtectedTest';
+import App from './components/App/App';
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import Loading from './components/Loading/Loading';
 
-import history from '../../history';
+import APITest from './components/APITest/APITest';
+import APIAuthTest from './components/APITest/APIAuthTest';
+import ProtectedTest from './components/ProtectedTest/ProtectedTest';
+
+import Auth from './Auth/Auth';
+import history from './history';
 
 const auth = new Auth();
 

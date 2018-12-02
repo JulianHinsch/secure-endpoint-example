@@ -29,7 +29,7 @@ export default class App extends Component {
                 <Navbar fluid>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="#">Auth0 - React</a>
+                            <a href="/">Auth0 - React</a>
                         </Navbar.Brand>
                         <Button
                             bsStyle="primary"
